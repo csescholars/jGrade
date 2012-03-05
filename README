@@ -1,3 +1,31 @@
 Autograder for AP Scholars.
 
 Maintained by CSE Scholars at the University of Michigan.
+
+DIRECTORY TREE:
+	autograder file
+	project
+		projectlist
+		PROJECT_DIRS
+			testlist
+			TESTDIRS
+				input.txt
+				output.txt
+	user
+		userlist
+		USER_DIRS
+
+projectlist format:
+	projectid:projectname
+		projectid id an integer
+		projectname is the name of the class for the project
+
+userlist fromat:
+	userid:username:password
+		userid is an integer
+		username and password are text strings
+
+testlist is just a list of directories containing the test files
+
+PROJECT_DIRS should each be named with a project id
+USER_DIRS should each be name with a user id
