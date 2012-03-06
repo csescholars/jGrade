@@ -20,7 +20,7 @@ projectlist format:
 		projectid id an integer
 		projectname is the name of the class for the project
 
-userlist fromat:
+userlist format:
 	userid:username:password
 		userid is an integer
 		username and password are text strings
